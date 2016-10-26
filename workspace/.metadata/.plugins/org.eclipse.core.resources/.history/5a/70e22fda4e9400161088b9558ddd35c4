@@ -1,0 +1,5 @@
+package wrapping;
+
+public class Exception {
+
+}

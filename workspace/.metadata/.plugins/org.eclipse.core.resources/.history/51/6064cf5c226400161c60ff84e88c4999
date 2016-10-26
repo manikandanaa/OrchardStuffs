@@ -1,0 +1,77 @@
+package compatabilitiy;
+import java.util.*;
+
+public class merge 
+{
+	public static void main(String args[]){
+
+		try{
+			String a = null;
+			int i,j,b[] = null;
+			Scanner sc=new Scanner(System.in);
+				do{
+					System.out.println("enter a name");
+				 a=sc.nextLine();
+				}while(a.equals(" "));
+				
+			for(j=0;j<a.length();j++)
+			{
+				b[j]=a.charAt(j);
+				if(b[j]>48&& b[j]<57)
+					System.out.println("sorry u hav entered a num try again!!");
+			}
+			int mid=j/2;
+			int sec=a.length()-mid;
+			int[] l=new int[mid];
+			int[] r=new int[sec];
+			for(i=0;i<mid;i++)
+			{
+				l[i]=b[i];
+			}
+			for(j=mid+1;j<sec;j++)
+			{
+				r[j]=b[j];
+			}
+			i=0;
+			j=0;
+			int k=0;
+			while(i<mid && j<sec)
+			{
+				if(l[i]<=r[j])
+				{
+					b[k]=l[i];
+				i++;
+				}
+				else
+				{
+					b[k]=r[j];
+					j++;
+				}
+				k++;
+			}
+			while(i<mid)
+			{
+				b[k]=l[i];
+				i++;
+				k++;
+			}
+			while(j<sec)
+			{
+				b[k]=r[j];
+				j++;
+				k++;
+			}
+			System.out.println("The sorted array is:");
+			for(i=0;i<a.length();i++)
+			{
+				
+				System.out.println(b[i]);
+			}
+	}
+catch(Exception e){
+	System.out.println("Sorry try again!!");
+}
+	
+}
+
+}

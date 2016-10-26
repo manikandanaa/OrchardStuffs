@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;annotation.s.java&apos; to &apos;Annotation.java&apos;&#x0D;&#x0A;- Original project: &apos;allprogramsfordis&apos;&#x0D;&#x0A;- Original element: &apos;annotation.s.java&apos;&#x0D;&#x0A;- Renamed element: &apos;annotation.Annotation.java&apos;" description="Rename compilation unit &apos;s.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;annotation{s.java" name="Annotation.java" references="false" stamp="1477364796091" version="1.0"/>
+</session>

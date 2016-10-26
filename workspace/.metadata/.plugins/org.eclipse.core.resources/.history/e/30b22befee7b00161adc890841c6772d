@@ -1,0 +1,67 @@
+package poly;
+
+public class  StackArray implements Stack
+
+	{
+	  private char stackArray[];
+	  private int top;		
+	  public StackArray ( int n )
+	  {
+	    stackArray = new char [ n ];
+	    top = -1;
+	  }
+
+	  public void push ( char item )
+	  {  stackArray [ ++top ] = item;  }
+
+	  public char pop ()
+	  {  return stackArray [ top-- ];  }
+
+	  public char peek ()
+	  {  return stackArray [ top ];  }
+
+	  public boolean isEmpty ()
+	  {  return ( top < 0 );  }
+
+	  public boolean isFull ()
+	  {  return ( top == stackArray.length - 1 );  }
+
+	  public String toString ()
+	  { StringBuffer aBuffer = new StringBuffer();
+	    for ( int i = top; i >= 0; i-- )
+	    {
+	      aBuffer.append ( stackArray [ i ] + "  " );
+	    }
+	    return aBuffer.toString();
+	  }
+	}
+	public class TestStack
+	{
+	  public void main ( String args [] )
+	  {
+	    Stack theStack = new StackArray ( 10 );
+	    char ch = ' ';
+
+	    if ( !theStack.isFull() )
+	      theStack.push ( 'a' );
+
+	    if ( !theStack.isFull() )
+	      theStack.push ( 'b' );
+
+	    if ( !theStack.isFull() )
+	      theStack.push ( 'c' );
+
+	    if ( !theStack.isEmpty() )
+	      ch = theStack.pop ();
+	    System.out.println ( "The item on top of the stack is " + ch );
+
+	    if ( !theStack.isEmpty() )
+	      ch = theStack.peek ();
+	    System.out.println ( "The item on top of the stack is " + ch );
+
+	    System.out.println ( theStack.toString() );
+	  }
+
+	}
+	    
+

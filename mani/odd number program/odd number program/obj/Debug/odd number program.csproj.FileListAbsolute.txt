@@ -1,0 +1,6 @@
+D:\mani\odd number program\odd number program\bin\Debug\odd number program.exe.config
+D:\mani\odd number program\odd number program\bin\Debug\odd number program.exe
+D:\mani\odd number program\odd number program\bin\Debug\odd number program.pdb
+D:\mani\odd number program\odd number program\obj\Debug\odd number program.csprojResolveAssemblyReference.cache
+D:\mani\odd number program\odd number program\obj\Debug\odd number program.exe
+D:\mani\odd number program\odd number program\obj\Debug\odd number program.pdb

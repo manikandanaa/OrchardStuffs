@@ -1,0 +1,27 @@
+﻿Build started 8/29/2016 8:20:54 PM.
+     1>Project "D:\mani\testing1\testing1\testing1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         Q:\VS2013PRO\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\testing1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt testing1.cpp
+         testing1.cpp
+     1>d:\mani\testing1\testing1\testing1.cpp(8): error C2146: syntax error : missing ';' before identifier 'name'
+     1>d:\mani\testing1\testing1\testing1.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\mani\testing1\testing1\testing1.cpp(15): error C2228: left of '.age' must have class/struct/union
+                 type is 'main::details [100]'
+     1>d:\mani\testing1\testing1\testing1.cpp(17): error C2228: left of '.phno' must have class/struct/union
+                 type is 'main::details [100]'
+     1>d:\mani\testing1\testing1\testing1.cpp(19): error C2228: left of '.name' must have class/struct/union
+                 type is 'main::details [100]'
+     1>d:\mani\testing1\testing1\testing1.cpp(29): error C2228: left of '.age' must have class/struct/union
+                 type is 'main::details [100]'
+     1>d:\mani\testing1\testing1\testing1.cpp(44): error C3861: 'strcmp': identifier not found
+     1>d:\mani\testing1\testing1\testing1.cpp(52): error C2181: illegal else without matching if
+     1>d:\mani\testing1\testing1\testing1.cpp(58): error C2228: left of '.phno' must have class/struct/union
+                 type is 'main::details [100]'
+     1>d:\mani\testing1\testing1\testing1.cpp(58): error C2059: syntax error : ')'
+     1>d:\mani\testing1\testing1\testing1.cpp(66): error C2181: illegal else without matching if
+     1>d:\mani\testing1\testing1\testing1.cpp(70): fatal error C1075: end of file found before the left brace '{' at 'd:\mani\testing1\testing1\testing1.cpp(3)' was matched
+     1>Done Building Project "D:\mani\testing1\testing1\testing1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.12

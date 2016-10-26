@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;problemset1b.mark&apos; to &apos;Mark&apos;&#x0D;&#x0A;- Original project: &apos;problemset1b&apos;&#x0D;&#x0A;- Original element: &apos;problemset1b.mark&apos;&#x0D;&#x0A;- Renamed element: &apos;problemset1b.Mark&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;mark&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;problemset1b{mark.java[mark" matchStrategy="1" name="Mark" qualified="false" references="true" similarDeclarations="false" stamp="1472104638343" textual="false" version="1.0"/>
+</session>

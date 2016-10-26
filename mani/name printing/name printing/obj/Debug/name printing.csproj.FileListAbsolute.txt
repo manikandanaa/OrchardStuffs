@@ -1,0 +1,6 @@
+D:\mani\name printing\name printing\bin\Debug\name printing.exe.config
+D:\mani\name printing\name printing\bin\Debug\name printing.exe
+D:\mani\name printing\name printing\bin\Debug\name printing.pdb
+D:\mani\name printing\name printing\obj\Debug\name printing.csprojResolveAssemblyReference.cache
+D:\mani\name printing\name printing\obj\Debug\name printing.exe
+D:\mani\name printing\name printing\obj\Debug\name printing.pdb

@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+
+public class LinkList 
+{
+public static void main(String args[])
+{
+	ArrayList<Integer> arraylist =new ArrayList<Integer>();
+	LinkedList<Integer> linkedlist=new LinkedList<Integer>();
+	
+	doTimings("ArrayList",arraylist);
+	doTimings("LinkedList",linkedlist);
+}
+private static void doTimings(String type,List<Integer> list)
+{
+	for(int i=0;i<1E5;i++)
+	{
+		list.add(i);
+	}
+	
+	long start= System.currentTimeMillis();
+	
+	
+	//add items at end of the list
+	
+	for(int i=0;i<1E5;i++)
+	{
+		list.add(i);
+	}
+	
+	//add items else where in list
+	
+	for(int i=0;i<1E5;i++)
+	{
+		list.add(list.size() - 100, i);
+	}
+	
+	long end=System.currentTimeMillis();
+	
+	System.out.println("time taken: " +(end-start)+ " ms for "+type);
+}
+}

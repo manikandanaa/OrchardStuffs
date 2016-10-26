@@ -1,0 +1,6 @@
+D:\mani\celsius to fahrenheit\celsius to fahrenheit\bin\Debug\celsius to fahrenheit.exe.config
+D:\mani\celsius to fahrenheit\celsius to fahrenheit\obj\Debug\celsius to fahrenheit.csprojResolveAssemblyReference.cache
+D:\mani\celsius to fahrenheit\celsius to fahrenheit\bin\Debug\celsius to fahrenheit.exe
+D:\mani\celsius to fahrenheit\celsius to fahrenheit\bin\Debug\celsius to fahrenheit.pdb
+D:\mani\celsius to fahrenheit\celsius to fahrenheit\obj\Debug\celsius to fahrenheit.exe
+D:\mani\celsius to fahrenheit\celsius to fahrenheit\obj\Debug\celsius to fahrenheit.pdb

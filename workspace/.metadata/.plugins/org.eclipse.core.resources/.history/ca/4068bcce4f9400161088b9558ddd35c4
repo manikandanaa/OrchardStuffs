@@ -1,0 +1,10 @@
+package wrapping;
+
+public class exceptiontest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

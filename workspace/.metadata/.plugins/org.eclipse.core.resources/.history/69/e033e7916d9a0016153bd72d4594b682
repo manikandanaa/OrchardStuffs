@@ -1,0 +1,5 @@
+package rowset;
+
+public class JDBCRowset {
+
+}

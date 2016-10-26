@@ -1,0 +1,6 @@
+D:\mani\factorial\factorial\bin\Debug\factorial.exe.config
+D:\mani\factorial\factorial\obj\Debug\factorial.csprojResolveAssemblyReference.cache
+D:\mani\factorial\factorial\bin\Debug\factorial.exe
+D:\mani\factorial\factorial\bin\Debug\factorial.pdb
+D:\mani\factorial\factorial\obj\Debug\factorial.exe
+D:\mani\factorial\factorial\obj\Debug\factorial.pdb

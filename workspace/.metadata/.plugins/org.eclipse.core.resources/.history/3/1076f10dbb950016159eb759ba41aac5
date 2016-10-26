@@ -1,0 +1,9 @@
+package multithreading;
+
+public class Onlythread {
+
+	public Onlythread() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,6 @@
+D:\mani\getting 10 numbers program\getting 10 numbers program\bin\Debug\getting 10 numbers program.exe.config
+D:\mani\getting 10 numbers program\getting 10 numbers program\obj\Debug\getting 10 numbers program.csprojResolveAssemblyReference.cache
+D:\mani\getting 10 numbers program\getting 10 numbers program\bin\Debug\getting 10 numbers program.exe
+D:\mani\getting 10 numbers program\getting 10 numbers program\bin\Debug\getting 10 numbers program.pdb
+D:\mani\getting 10 numbers program\getting 10 numbers program\obj\Debug\getting 10 numbers program.exe
+D:\mani\getting 10 numbers program\getting 10 numbers program\obj\Debug\getting 10 numbers program.pdb

@@ -1,0 +1,22 @@
+package one;
+
+public class inher
+{
+class check
+{
+	int j;
+	public void did()
+	{
+		System.out.println(j);
+	}
+}
+static class act extends check
+{
+	public static void main(String args[])
+	{
+		act a=new act();
+		a.j=17;
+		a.did();
+	}
+}
+}

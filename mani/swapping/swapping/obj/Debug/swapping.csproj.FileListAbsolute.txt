@@ -1,0 +1,5 @@
+D:\mani\swapping\swapping\bin\Debug\swapping.exe.config
+D:\mani\swapping\swapping\bin\Debug\swapping.exe
+D:\mani\swapping\swapping\bin\Debug\swapping.pdb
+D:\mani\swapping\swapping\obj\Debug\swapping.exe
+D:\mani\swapping\swapping\obj\Debug\swapping.pdb

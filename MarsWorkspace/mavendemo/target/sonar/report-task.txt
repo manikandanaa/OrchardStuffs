@@ -1,0 +1,5 @@
+projectKey=com.mindtree:mavendemo
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/com.mindtree:mavendemo
+ceTaskId=AVflQq3s9RnN1xYWYdOf
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVflQq3s9RnN1xYWYdOf
